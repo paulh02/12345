@@ -1,0 +1,42 @@
+{
+    "title": "KAISE KSRobot",
+    "author": "KAISE KSRobot",
+    "description": "KAISE KSRobot ",
+    "extension": null,
+    "generator": "site",
+    "isbn": "",
+    "variables": {},
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "KAISE KSRobot": "https://www.kaise.com.tw"
+        }
+    },
+    "output": null,
+    "plugins": [
+                "insert-logo",
+                "expandable-chapters-small",
+                "code",
+                "page-footer-ex"
+    ],
+    "pluginsConfig": {
+      "insert-logo": {
+        "url": "/docs/images/ks_logo.png",
+        "style": "background: none; max-height: 30px; min-height: 30px"
+      },
+      "page-footer-ex": {
+            "copyright": "By <em>KAISE KSRobot</em>",
+            "markdown": false,
+            "update_label": "<i>updated</i>",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
+        }      
+      
+    }
+    
+}
